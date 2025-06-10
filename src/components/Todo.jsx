@@ -11,7 +11,7 @@
         const [clearAll,setClearAll] = useState(false)
 
     return (
-        <div className='bg-black w-[400px] md:w-[820px] sm:w-[550px] p-5 mt-9 rounded-2xl flex flex-col text-amber-100 '>
+        <div className='bg-black w-[360px] md:w-[820px] sm:w-[550px] p-5 mt-9 rounded-2xl flex flex-col text-amber-100 '>
             {/* Heading of Todo and clear all button */}
             <div className='flex md:justify-center items-center mb-8 gap-2 ml-5 md:ml-57 mt-3'>
                 <h1 className='text-2xl font-bold text-white'>TODOS</h1>
