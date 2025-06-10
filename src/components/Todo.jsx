@@ -11,13 +11,13 @@
         const [clearAll,setClearAll] = useState(false)
 
     return (
-        <div className='bg-black w-[450px] md:w-[820px] sm:w-[550px] p-5 mt-9 rounded-2xl flex flex-col text-amber-100 '>
+        <div className='bg-black w-[400px] md:w-[820px] sm:w-[550px] p-5 mt-9 rounded-2xl flex flex-col text-amber-100 '>
             {/* Heading of Todo and clear all button */}
             <div className='flex md:justify-center items-center mb-8 gap-2 ml-5 md:ml-57 mt-3'>
                 <h1 className='text-2xl font-bold text-white'>TODOS</h1>
                 <img src={logo} className='h-8 w-8' alt='logo' />
                 <p className='text-gray-400 text-[12px] md:text-[15px]'>Let’s Get Things Done!</p>
-                <button onClick={()=>{todos.length === 0 ? toast.error("You Don't Have any Todo") :setClearAll(true)}} className='md:ml-32 sm:ml-35 ml-15 cursor-pointer hover:text-amber-200 transition-all hover:scale-103 '>clear-All</button>
+                <button onClick={()=>{todos.length === 0 ? toast.error("You Don't Have any Todo") :setClearAll(true)}} className='md:ml-32 sm:ml-35 ml-5 cursor-pointer hover:text-amber-200 transition-all hover:scale-103 '>clear-All</button>
             </div>
 
             {/* Making Todo List */}
