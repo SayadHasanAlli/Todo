@@ -67,7 +67,7 @@ const AddTodo = () => {
         onSubmit={onSubmit}
       >
         <input
-          className="bg-gray-200 h-10 w-[350px] sm:w-[500px] md:w-[700px] text-black px-4 rounded-full"
+          className="bg-gray-200 h-10 w-[300px] sm:w-[500px] md:w-full text-black px-4 rounded-full"
           placeholder="Your Text Here"
           value={text}
           onChange={(e) => setText(e.target.value)}
